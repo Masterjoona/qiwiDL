@@ -19,8 +19,8 @@ cd qiwiDL && go build
 > As I write this README and checked the previous domain `spyderrock.com` (which [these](https://github.com/jufantozzi/Qiwi.gg-downloader/blob/2d086e28eaf7f3a6972340a0f1c78b03c2f751d2/downloader.js#L54) [projects](https://github.com/gookie-dev/qiwi.ddl/blob/7a62b121acfc3f60818dfd53beba14e0681edeac/main.py#L8) use) it also apparently works still. So I guess you can use that too.
 
 ## Screenshots
-[!image](https://bin.masterjoona.dev/u/f2JYRG.png)
-[!image](https://bin.masterjoona.dev/u/UYah4b.png)
+![image](https://bin.masterjoona.dev/u/f2JYRG.png)
+![image](https://bin.masterjoona.dev/u/UYah4b.png)
 
 ## Modules
 - [survey](https://github.com/AlecAivazis/survey) (Deprecated but still works)
