@@ -25,7 +25,7 @@ func main() {
 	flag.StringVar(&qiwiFolder, "folder", "", "Qiwi folder url")
 	flag.IntVar(&concurrentDownloads, "concurrent", 3, "Number of concurrent downloads (how many files to download at once, this is not the amount of simultaneous connections to one file)")
 	flag.StringVar(&directory, "directory", "", "Directory to download to")
-	flag.StringVar(&host, "host", "https://texturepackguy.com/", "When you go download a file and hover your mouse over the download button, you should see a link like https://texturepackguy.com/abcdefg1234567890. The host is the https://texturepackguy.com/ part.")
+	flag.StringVar(&host, "host", "https://qiwi.lol/", "When you go download a file and hover your mouse over the download button, you should see a link like https://texturepackguy.com/abcdefg1234567890. The host is the https://texturepackguy.com/ part.")
 	flag.Parse()
 
 	if qiwiFolder == "" || !strings.Contains(qiwiFolder, "qiwi.gg") {

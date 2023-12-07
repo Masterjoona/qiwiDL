@@ -14,9 +14,10 @@ cd qiwiDL && go build
 - `-folder` - Folder url to download
 - `-concurrent=3` - how many files to download at the same time.
 - `-directory=.` - Directory to download to. Default is current directory.
-- `-host=https://texturepackguy.com/` - qiwi seems to change their file host domain every now and then. 
+- `-host=https://qiwi.lol/` - ~~qiwi seems to change their file host domain every now and then.~~ seems not to be the case anymore
 > [!NOTE]
-> As I write this README and checked the previous domain `spyderrock.com` (which [these](https://github.com/jufantozzi/Qiwi.gg-downloader/blob/2d086e28eaf7f3a6972340a0f1c78b03c2f751d2/downloader.js#L54) [projects](https://github.com/gookie-dev/qiwi.ddl/blob/7a62b121acfc3f60818dfd53beba14e0681edeac/main.py#L8) use) it also apparently works still. So I guess you can use that too.
+> ~~As I write this README and checked the previous domain `spyderrock.com` (which [these](https://github.com/jufantozzi/Qiwi.gg-downloader/blob/2d086e28eaf7f3a6972340a0f1c78b03c2f751d2/downloader.js#L54) [projects](https://github.com/gookie-dev/qiwi.ddl/blob/7a62b121acfc3f60818dfd53beba14e0681edeac/main.py#L8) use) it also apparently works still. So I guess you can use that too.~~
+> looks like they finally made up their minds and settled on a domain.
 
 ## Screenshots
 ![image](https://bin.masterjoona.dev/u/f2JYRG.png)
